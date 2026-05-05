@@ -1,9 +1,9 @@
 #!/usr/bin/envbash
 # Initialize counter variable
-i=10
+i=5
 
 #i=0
-while [[ $i -ge 0 ]]; do
+while [[ $i -gt 0 ]]; do
 # Do something on each iteration
     echo "Iteration $i"
 # Decrement counter variable
